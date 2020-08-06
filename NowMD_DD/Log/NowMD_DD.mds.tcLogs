@@ -507,6 +507,24 @@
 				<Prp name="relpath" type="S" value="8_5_2020_10_04 PM_34_304\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0054">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44049.4645171528"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{63ED84B7-A918-43FB-BDB2-F142F1502365}"/>
+				<Prp name="nameofroot" type="S" value="NowMD_DD"/>
+				<Prp name="relpath" type="S" value="06-08-2020_11_08_54_282\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0055">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44049.4670966782"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{44356B2D-DACC-472E-887F-14F3263369CC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\Login]"/>
+				<Prp name="relpath" type="S" value="06-08-2020_11_12_37_153\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

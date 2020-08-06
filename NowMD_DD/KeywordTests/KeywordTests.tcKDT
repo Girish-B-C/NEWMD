@@ -5,5 +5,6 @@
 		<child name="Create_Patients" key="{D0AAEC18-5A0B-4433-8CE4-C81393318977}" path="Create_Patients.tcKDTest" />
 		<child name="Invalid_logins" key="{5B1C80DE-B6DF-4279-9D1C-B859EB000ABF}" path="Invalid_logins.tcKDTest" />
 		<child name="Delete_patients" key="{08422A87-31A2-4926-A5C8-7FB1316F8CD3}" path="Delete_patients.tcKDTest" />
+		<child name="Dummy_Test" key="{82F3D4DC-75E9-48FA-ADE1-EC518E16D519}" path="Dummy_Test.tcKDTest" />
 	</children>
 </Root>
