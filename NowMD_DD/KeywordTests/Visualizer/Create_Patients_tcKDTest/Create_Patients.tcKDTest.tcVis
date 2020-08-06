@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{D0AAEC18-5A0B-4433-8CE4-C81393318977}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="20" kind="0" dateTime="44048.6743518518" objectName="Aliases.NowMDdemo.formPatientEntry.panelButtons.btnSave" objectLeft="637" objectTop="46" objectRight="721" objectBottom="71" clickPointX="671" clickPointY="55" imageFileName="tcvi17068604622681.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="22" kind="0" dateTime="44048.6778819444" objectName="Aliases.NowMDdemo.formSubCenter" objectLeft="0" objectTop="0" objectRight="828" objectBottom="430" clickPointX="-1" clickPointY="-1" imageFileName="tcvi17099164075120.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="23" kind="0" dateTime="44048.6779166667" objectName="Aliases.NowMDdemo.formMain" objectLeft="-8" objectTop="-8" objectRight="1374" objectBottom="736" clickPointX="-1" clickPointY="-1" imageFileName="tcvi17099435975121.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

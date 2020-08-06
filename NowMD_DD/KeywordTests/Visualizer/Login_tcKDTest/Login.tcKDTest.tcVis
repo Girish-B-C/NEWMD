@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BA5576BC-B41D-4A0A-90CB-2AC13D1D9F0F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44047.2197800926" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edLoginName" objectLeft="653" objectTop="345" objectRight="774" objectBottom="366" clickPointX="-1" clickPointY="-1" imageFileName="tcvi4501056223561.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44047.2198148148" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edPassword" objectLeft="653" objectTop="373" objectRight="774" objectBottom="394" clickPointX="-1" clickPointY="-1" imageFileName="tcvi4501289023562.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44048.6590856481" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.btnLogin" objectLeft="805" objectTop="426" objectRight="916" objectBottom="451" clickPointX="855" clickPointY="436" imageFileName="tcvi169367515102641.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44048.671724537" objectName="Aliases.NowMDdemo.formMain.panelNavagation.NavPanel.Window(&quot;TAdvNavBarPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;TRzToolButton&quot;)" objectLeft="11" objectTop="108" objectRight="136" objectBottom="125" clickPointX="32" clickPointY="115" imageFileName="tcvi170459062113080.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

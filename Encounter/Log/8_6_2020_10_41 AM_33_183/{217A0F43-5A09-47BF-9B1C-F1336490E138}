@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="131"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="148"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object right" type="I" value="136"/>
+					<Prp name="click point y" type="I" value="135"/>
+					<Prp name="datetime" type="D" value="44049.2004861111"/>
+					<Prp name="image file name" type="S" value="tcvi21614414042601.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formMain.panelNavagation.NavPanel.Window(&quot;TAdvNavBarPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;TRzToolButton_2&quot;)"/>
+					<Prp name="click point x" type="I" value="69"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="131"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="148"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object right" type="I" value="136"/>
+					<Prp name="click point y" type="I" value="135"/>
+					<Prp name="datetime" type="D" value="44049.2166761806"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formMain.panelNavagation.NavPanel.Window(&quot;TAdvNavBarPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;TRzToolButton_2&quot;)"/>
+					<Prp name="click point x" type="I" value="69"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4458443056"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (58, 4) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formMain&quot;).VCLObject(&quot;panelNavagation&quot;).VCLObject(&quot;NavPanel&quot;).Window(&quot;TAdvNavBarPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;TRzToolButton_2&quot;)"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage23_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="242"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="489"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="267"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point y" type="I" value="253"/>
+					<Prp name="datetime" type="D" value="44049.2008680556"/>
+					<Prp name="image file name" type="S" value="tcvi216177437426015.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.btnSelectName"/>
+					<Prp name="click point x" type="I" value="543"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="242"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="489"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="267"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point y" type="I" value="253"/>
+					<Prp name="datetime" type="D" value="44049.2169104282"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.btnSelectName"/>
+					<Prp name="click point x" type="I" value="543"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.446078669"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (54, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formSearchName.panelButtons.btnSelectName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formSearchName&quot;).VCLObject(&quot;panelButtons&quot;).VCLObject(&quot;btnSelectName&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage26_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="198"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="32"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="234"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="143"/>
+					<Prp name="click point y" type="I" value="210"/>
+					<Prp name="datetime" type="D" value="44049.2009606482"/>
+					<Prp name="image file name" type="S" value="tcvi216185453426020.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.btnAddDiagnosis"/>
+					<Prp name="click point x" type="I" value="83"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="198"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="32"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="234"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="143"/>
+					<Prp name="click point y" type="I" value="210"/>
+					<Prp name="datetime" type="D" value="44049.2169327894"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.btnAddDiagnosis"/>
+					<Prp name="click point x" type="I" value="83"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4461008565"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (51, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.btnAddDiagnosis&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formEncounter&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;panelMain&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsProcedures&quot;).VCLObject(&quot;panelProcedures&quot;).VCLObject(&quot;gbDiagnosis&quot;).VCLObject(&quot;btnAddDiagnosis&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="create_encounter()"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage19_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="61"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="82"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object right" type="I" value="605"/>
+					<Prp name="click point y" type="I" value="-182"/>
+					<Prp name="datetime" type="D" value="44049.2007407407"/>
+					<Prp name="image file name" type="S" value="tcvi21616662542606.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.gbName.edSearchText"/>
+					<Prp name="click point x" type="I" value="-371"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="61"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="82"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object right" type="I" value="605"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44049.2168678704"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.gbName.edSearchText"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="date" type="D" value="44049.446035787"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'ani' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formSearchName.panelButtons.gbName.edSearchText&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formSearchName&quot;).VCLObject(&quot;panelButtons&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edSearchText&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="message" type="S" value="The object &quot;gridSearch&quot; does not exist."/>
+			<Prp name="date" type="D" value="44049.446242662"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;VScroll&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;NowMDdemo.&amp;#8203;&lt;a href=&quot;lnamemapping://{3AF429EC-D7EC-42DA-8584-850EDBC97412}.Aliases.NowMDdemo.formSearchName&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;formSearchName&lt;/span&gt;&lt;/a&gt;.&amp;#8203;panelFields.&amp;#8203;&lt;a href=&quot;lnamemapping://{3AF429EC-D7EC-42DA-8584-850EDBC97412}.Aliases.NowMDdemo.formSearchName.panelFields.gridSearch&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;gridSearch&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;NowMDdemo.&amp;#8203;&lt;a href=&quot;lnamemapping://{3AF429EC-D7EC-42DA-8584-850EDBC97412}.Aliases.NowMDdemo.formSearchName&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;formSearchName&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{3AF429EC-D7EC-42DA-8584-850EDBC97412}.Aliases.NowMDdemo.formSearchName&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{0CA599DF-ED43-4F73-9822-F9A12833B897}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{0CA599DF-ED43-4F73-9822-F9A12833B897}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage20_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="92"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="489"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point y" type="I" value="103"/>
+					<Prp name="datetime" type="D" value="44049.200775463"/>
+					<Prp name="image file name" type="S" value="tcvi21616912542608.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.btnSearchNow"/>
+					<Prp name="click point x" type="I" value="571"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="92"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="489"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point y" type="I" value="103"/>
+					<Prp name="datetime" type="D" value="44049.2168717361"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.btnSearchNow"/>
+					<Prp name="click point x" type="I" value="571"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4460392708"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (82, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formSearchName.panelButtons.btnSearchNow&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formSearchName&quot;).VCLObject(&quot;panelButtons&quot;).VCLObject(&quot;btnSearchNow&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="37"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="213"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="60"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object right" type="I" value="235"/>
+					<Prp name="click point y" type="I" value="44"/>
+					<Prp name="datetime" type="D" value="44049.2006944444"/>
+					<Prp name="image file name" type="S" value="tcvi21616215642603.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edPatient.sbNameSearch"/>
+					<Prp name="click point x" type="I" value="218"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="37"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="213"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="60"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object right" type="I" value="235"/>
+					<Prp name="click point y" type="I" value="44"/>
+					<Prp name="datetime" type="D" value="44049.2168423843"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edPatient.sbNameSearch"/>
+					<Prp name="click point x" type="I" value="218"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4460110532"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (5, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edPatient.sbNameSearch&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formEncounter&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;panelTop&quot;).VCLObject(&quot;edPatient&quot;).VCLObject(&quot;sbNameSearch&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage21_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="242"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="489"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="267"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="datetime" type="D" value="44049.2007986111"/>
+					<Prp name="image file name" type="S" value="tcvi216171515426010.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.btnSelectName"/>
+					<Prp name="click point x" type="I" value="550"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="242"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="489"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="267"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point y" type="I" value="257"/>
+					<Prp name="datetime" type="D" value="44049.2168741551"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.btnSelectName"/>
+					<Prp name="click point x" type="I" value="550"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4460416782"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (61, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formSearchName.panelButtons.btnSelectName&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formSearchName&quot;).VCLObject(&quot;panelButtons&quot;).VCLObject(&quot;btnSelectName&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage24_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="84"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="124"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="257"/>
+					<Prp name="click point y" type="I" value="99"/>
+					<Prp name="datetime" type="D" value="44049.2009027778"/>
+					<Prp name="image file name" type="S" value="tcvi216180265426017.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edDescription"/>
+					<Prp name="click point x" type="I" value="163"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="84"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="124"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="257"/>
+					<Prp name="click point y" type="I" value="99"/>
+					<Prp name="datetime" type="D" value="44049.2169148032"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edDescription"/>
+					<Prp name="click point x" type="I" value="163"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4460838542"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (39, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edDescription&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formEncounter&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;panelTop&quot;).VCLObject(&quot;edDescription&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="message" type="S" value="The object &quot;gridSearch.VScroll&quot; does not exist."/>
+			<Prp name="date" type="D" value="44049.4462462037"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Pos&quot; method or property of the &quot;gridSearch.VScroll&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="create_encounter()"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{9B6E425C-63F2-4F30-AD6C-15DD56D2BFDA}"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="create_encounter()"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage22_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="61"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="213"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="84"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="235"/>
+					<Prp name="click point y" type="I" value="71"/>
+					<Prp name="datetime" type="D" value="44049.2008333333"/>
+					<Prp name="image file name" type="S" value="tcvi216174593426013.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edRenderingProvider.sbNameSearch"/>
+					<Prp name="click point x" type="I" value="217"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="61"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="213"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="84"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="235"/>
+					<Prp name="click point y" type="I" value="71"/>
+					<Prp name="datetime" type="D" value="44049.216893831"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edRenderingProvider.sbNameSearch"/>
+					<Prp name="click point x" type="I" value="217"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4460617824"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (4, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edRenderingProvider.sbNameSearch&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formEncounter&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;panelTop&quot;).VCLObject(&quot;edRenderingProvider&quot;).VCLObject(&quot;sbNameSearch&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage28_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="175"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="32"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="196"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object right" type="I" value="143"/>
+					<Prp name="click point y" type="I" value="-24"/>
+					<Prp name="datetime" type="D" value="44049.2010069444"/>
+					<Prp name="image file name" type="S" value="tcvi216189156426023.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.edAddDiagnosis"/>
+					<Prp name="click point x" type="I" value="-327"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="175"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="32"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="196"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object right" type="I" value="143"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44049.2169383218"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.edAddDiagnosis"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="date" type="D" value="44049.4461065394"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'100' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.edAddDiagnosis&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formEncounter&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;panelMain&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsProcedures&quot;).VCLObject(&quot;panelProcedures&quot;).VCLObject(&quot;gbDiagnosis&quot;).VCLObject(&quot;edAddDiagnosis&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage25_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="84"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="124"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object right" type="I" value="257"/>
+					<Prp name="click point y" type="I" value="-24"/>
+					<Prp name="datetime" type="D" value="44049.2009143519"/>
+					<Prp name="image file name" type="S" value="tcvi216181156426018.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edDescription"/>
+					<Prp name="click point x" type="I" value="-327"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="84"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="124"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="105"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object right" type="I" value="257"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44049.216918044"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edDescription"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="date" type="D" value="44049.4460902546"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'fgdgdfg' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formEncounter.panelFields.panelTop.edDescription&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formEncounter&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;panelTop&quot;).VCLObject(&quot;edDescription&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage27_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="175"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="32"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="196"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object right" type="I" value="143"/>
+					<Prp name="click point y" type="I" value="187"/>
+					<Prp name="datetime" type="D" value="44049.2009953704"/>
+					<Prp name="image file name" type="S" value="tcvi216188437426022.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.edAddDiagnosis"/>
+					<Prp name="click point x" type="I" value="108"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="175"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="32"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="196"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object right" type="I" value="143"/>
+					<Prp name="click point y" type="I" value="187"/>
+					<Prp name="datetime" type="D" value="44049.2169361574"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.edAddDiagnosis"/>
+					<Prp name="click point x" type="I" value="108"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4461041319"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (76, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formEncounter.panelFields.panelMain.PageControl.tsProcedures.panelProcedures.gbDiagnosis.edAddDiagnosis&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formEncounter&quot;).VCLObject(&quot;panelFields&quot;).VCLObject(&quot;panelMain&quot;).VCLObject(&quot;PageControl&quot;).VCLObject(&quot;tsProcedures&quot;).VCLObject(&quot;panelProcedures&quot;).VCLObject(&quot;gbDiagnosis&quot;).VCLObject(&quot;edAddDiagnosis&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="61"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="82"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="605"/>
+					<Prp name="click point y" type="I" value="69"/>
+					<Prp name="datetime" type="D" value="44049.2007291667"/>
+					<Prp name="image file name" type="S" value="tcvi21616551542605.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.gbName.edSearchText"/>
+					<Prp name="click point x" type="I" value="543"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object top" type="I" value="61"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="492"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="82"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="605"/>
+					<Prp name="click point y" type="I" value="69"/>
+					<Prp name="datetime" type="D" value="44049.2168653356"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object name" type="S" value="Aliases.NowMDdemo.formSearchName.panelButtons.gbName.edSearchText"/>
+					<Prp name="click point x" type="I" value="543"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44049.4460334491"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (51, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.NowMDdemo.formSearchName.panelButtons.gbName.edSearchText&#xA;(Sys.Process(&quot;NowMDdemo&quot;).VCLObject(&quot;formSearchName&quot;).VCLObject(&quot;panelButtons&quot;).VCLObject(&quot;gbName&quot;).VCLObject(&quot;edSearchText&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="date" type="D" value="44049.4462472222"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

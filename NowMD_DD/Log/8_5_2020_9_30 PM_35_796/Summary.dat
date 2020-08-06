@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The NowMDdemo.exe process crashed."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem2"/>
+						<Prp name="duration" type="I" value="2248"/>
+						<Prp name="durationwithoutchildren" type="I" value="2248"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEQARgA1AEQAOAAwAEQALQA3ADAARABFAC0ANABCADgAOAAtAEIAMQA1AEUALQBFAEEAMwBCADYAQwA0ADcAMwAwADMARAB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="starttime" type="D" value="44048.8963711574"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem4"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="starttime" type="D" value="44048.8963978588"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem3"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="starttime" type="D" value="44048.8963978588"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test ProjectTestItem2 failed"/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="duration" type="I" value="11183"/>
+						<Prp name="durationwithoutchildren" type="I" value="8935"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEMANgA1ADQAQQA1ADcALQA5AEMAOAA3AC0ANABFADAARgAtAEIAQwA2ADkALQAxADcAOAAxADcAMgA5ADAAMABEADQANwB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="starttime" type="D" value="44048.8962679745"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="NowMD_DD"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="duration" type="I" value="11183"/>
+				<Prp name="incompletedtests" type="I" value="2"/>
+				<Prp name="starttime" type="D" value="44048.8962679745"/>
+			</Node>
+		</Node>
+		<Prp name="key" type="S" value="{2CDC469D-D364-47F8-8580-0B0F7A3329C5}"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="44048.8962481019"/>
+		<Prp name="tests" type="I" value="4"/>
+		<Prp name="incompletedtests" type="I" value="2"/>
+		<Prp name="testname" type="S" value="NowMD_DD"/>
+		<Prp name="name" type="S" value="NowMD_DD"/>
+		<Prp name="host" type="S" value="DESKTOP-I10MDK2"/>
+		<Prp name="user" type="S" value="Girish B C"/>
+		<Prp name="stop" type="D" value="44048.8963998264"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="2"/>
+	</Node>
+</Nodes>

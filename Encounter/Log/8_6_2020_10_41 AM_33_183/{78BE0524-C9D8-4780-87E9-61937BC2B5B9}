@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row3">
+				<Prp name="details" type="S" value="{37C27CEA-6089-4BC9-ADDB-032688365CFA}"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem4 [KeywordTests - Delete_encounter_no]"/>
+				<Prp name="start time" type="D" value="44049.4462479051"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44049.4463884144"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="details" type="S" value="{01A299E3-A9CD-4123-97EA-CDBC16085AF6}"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem5 [KeywordTests - Find_encounter]"/>
+				<Prp name="start time" type="D" value="44049.4463886574"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44049.4465255671"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="details" type="S" value="{217A0F43-5A09-47BF-9B1C-F1336490E138}"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem3 [KeywordTests - create_encounter]"/>
+				<Prp name="start time" type="D" value="44049.4458366898"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44049.4462476736"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="details" type="S" value="{C4E6B6E6-70CC-4336-8619-3DE9D8114E46}"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem1 [KeywordTests - A_create_base_patient]"/>
+				<Prp name="start time" type="D" value="44049.4455236111"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44049.4457410764"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="details" type="S" value="{F1E761A2-706D-4489-91AA-EB1EAE72083E}"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem6 [KeywordTests - Delete_encounter_yes]"/>
+				<Prp name="start time" type="D" value="44049.4465257986"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44049.4466634838"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="details" type="S" value="{B58441FF-40BA-4AAD-BDD7-06AD7BB71719}"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem2 [KeywordTests - Encounter_check]"/>
+				<Prp name="start time" type="D" value="44049.4457414583"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44049.4458364583"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row6">
+				<Prp name="details" type="S" value="{405BB778-8449-434A-BC48-A177A1CFC7E0}"/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ProjectTestItem7 [KeywordTests - Z_delete_base_test]"/>
+				<Prp name="start time" type="D" value="44049.4466637037"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44049.4468389699"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

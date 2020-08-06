@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{85A458D0-4CFC-45A5-956E-6055A6BA8BB5}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="44047.2197800926" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edLoginName" objectLeft="653" objectTop="345" objectRight="774" objectBottom="366" clickPointX="-1" clickPointY="-1" imageFileName="tcvi4501056223561.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="44047.2198148148" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.edPassword" objectLeft="653" objectTop="373" objectRight="774" objectBottom="394" clickPointX="-1" clickPointY="-1" imageFileName="tcvi4501289023562.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="0" dateTime="44047.219837963" objectName="Aliases.NowMDdemo.formUserLogin.panelMain.panelLogin.btnLogin" objectLeft="847" objectTop="433" objectRight="870" objectBottom="446" clickPointX="858" clickPointY="440" imageFileName="tcvi4501564023564.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="44047.2199537037" objectName="Aliases.NowMDdemo.formMain" objectLeft="-8" objectTop="-8" objectRight="1374" objectBottom="736" clickPointX="-1" clickPointY="-1" imageFileName="tcvi4502504623565.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

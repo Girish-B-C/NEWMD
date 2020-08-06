@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{644102FD-1D02-4B3F-B31F-2F4D883C38D7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44049.203125" objectName="Aliases.NowMDdemo.formMain.panelNavagation.NavPanel.Window(&quot;TAdvNavBarPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;TRzToolButton_5&quot;)" objectLeft="11" objectTop="188" objectRight="136" objectBottom="205" clickPointX="86" clickPointY="200" imageFileName="tcvi21637181242600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44049.2031828704" objectName="Aliases.NowMDdemo.dlgConfirm.Confirm.CtrlNotifySink2.btnNo" objectLeft="285" objectTop="95" objectRight="353" objectBottom="118" clickPointX="313" clickPointY="102" imageFileName="tcvi21637779642603.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

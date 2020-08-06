@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Encounter_check" key="{CA788971-C2A0-451D-9E40-AB1225145A16}" path="Encounter_check.tcKDTest" />
+		<child name="A_create_base_patient" key="{C1D44051-D758-4417-BF94-5615B7C89341}" path="A_create_base_patient.tcKDTest" />
+		<child name="Z_delete_base_test" key="{84C5CFF3-135A-4AC9-A5EA-2E56EA3CD407}" path="Z_delete_base_test.tcKDTest" />
+		<child name="create_encounter" key="{9B6E425C-63F2-4F30-AD6C-15DD56D2BFDA}" path="create_encounter.tcKDTest" />
+		<child name="Delete_encounter_no" key="{644102FD-1D02-4B3F-B31F-2F4D883C38D7}" path="Delete_encounter_no.tcKDTest" />
+		<child name="Delete_encounter_yes" key="{8B26F49C-0B39-467B-A32E-0AC656636BDC}" path="Delete_encounter_yes.tcKDTest" />
+		<child name="Find_encounter" key="{3B89C1DC-0150-4417-95B3-5329556063CB}" path="Find_encounter.tcKDTest" />
+	</children>
+</Root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8B26F49C-0B39-467B-A32E-0AC656636BDC}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44049.2085185185" objectName="Aliases.NowMDdemo.formMain.panelNavagation.NavPanel.Window(&quot;TAdvNavBarPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;TRzToolButton_5&quot;)" objectLeft="11" objectTop="188" objectRight="136" objectBottom="205" clickPointX="63" clickPointY="197" imageFileName="tcvi21683804691280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44049.208900463" objectName="Aliases.NowMDdemo.dlgConfirm.Confirm.CtrlNotifySink.btnYes" objectLeft="211" objectTop="95" objectRight="279" objectBottom="118" clickPointX="238" clickPointY="109" imageFileName="tcvi21687176591283.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44049.2093287037" objectName="Aliases.NowMDdemo.formMain" objectLeft="-8" objectTop="-8" objectRight="1374" objectBottom="736" clickPointX="-1" clickPointY="-1" imageFileName="tcvi21690815691280.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
